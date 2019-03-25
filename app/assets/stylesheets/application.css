@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+.single {
+padding: 30px 15px;
+margin-top: 40px;
+background: #a4c8d6;
+border: 1px solid #f0f0f0; }
+.single h3.side-title {
+margin: 0;
+margin-bottom: 10px;
+padding: 0;
+font-size: 20px;
+color: #333;
+text-transform: uppercase; }
+.single h3.side-title:after {
+content: '';
+width: 60px;
+height: 1px;
+background: #ff173c;
+display: block;
+margin-top: 6px; }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+
+.single li a {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333 !important;
+    background-color: #fff;
+}
+span.draggable {
+    font-size: 24px;
+    color: #3439d8;
+        cursor: move;
+}
+
+.btn{
+    font-size: 11px !important;
+    font-weight: unset;
+    border-radius: 0 !important;
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.border-gray{
+    border: 1px solid #ededed;
+}
+.text-center {
+
+    text-align: center;
+}
+.wall-wrapper {
+    margin-top: 10px;
+}
+
+form#new_user {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.field input {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.actions input {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+        color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}

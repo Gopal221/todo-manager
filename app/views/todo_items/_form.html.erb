@@ -1,0 +1,10 @@
+<%=form_for([@todo_list, @todo_list.todo_items.build]) do |f|%>
+	<div class="row">
+		<div class="col-md-8">
+			<%=f.text_field :content, placeholder: 'Add Task', class: 'form-control'%>
+		</div>
+		<div class="col-md-4">
+			 <%= f.submit "save", class: "btn-default btn-warning"%>
+		</div>
+	</div>
+<%end%>

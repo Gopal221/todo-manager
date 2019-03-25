@@ -1,0 +1,18 @@
+
+<li class="list-group-item d-flex justify-content-between align-items-center" id="<%= dom_id(todo_item) %>">
+	<%-button_text = todo_item.completed ? 'Completed': 'Mark As Complete'%>
+	<%-button_class = todo_item.completed ? 'btn btn-secondary': 'btn btn-warning'%>
+	<div class="col-md-6">
+   <%= todo_item.content%>
+	</div>
+	<div class="col-md-3">
+	<%= button_to button_text, mark_as_complete_todo_list_todo_items_path(@todo_list, id:todo_item.id), :method => :patch, disabled: todo_item.completed, class: button_class %>
+	</div>
+	<div class="col-md-2">
+		<%=button_to 'Delete', todo_list_todo_item_path(@todo_list, todo_item.id),method: :delete, data: {confirm: 'Are you sure'}, class:"btn btn-danger"%>
+	</div>
+	<div class="col-md-1">	
+	<span class="draggable"><i class="fas fa-arrows-alt fa-500px"></i></span>
+	</div>
+</li>
+

@@ -1,0 +1,12 @@
+<div class="col-md-8 offset-md-2">
+  <div class="single category">
+    <h3 class="side-title">Category: <%= @todo_list.title %></h3>
+    <ul class="list-group" id="todolist" data-url="<%=sort_todo_list_todo_items_path((@todo_list.id))%>">
+      <%=render @todo_list.todo_items%>
+    </ul>
+    <div style="margin-top: 20px;">
+    <%=render 'todo_items/form'%>
+    	
+    </div>
+  </div>
+</div> 
