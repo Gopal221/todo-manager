@@ -7,7 +7,8 @@ ToDo-Manager Drag&Drop Application
 Build an application from the ground up which utilizes many of the concepts covered in class, culminating in a drag-and-drop interface.
 
 ## Demo
-	* [here](https://hidden-peak-22959.herokuapp.com/)
+
+* [Here](https://hidden-peak-22959.herokuapp.com/)
 
 ## About 
  * This application to allow for multi-tenancy. This means that multiple users can access the same application, but that each user only ever sees his or her content. There will be no overlap in content, and additional users can be added with no developer intervention.
