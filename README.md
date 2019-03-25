@@ -1,24 +1,20 @@
-# README
+# Project Title
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ToDo-Manager Drag&Drop Application
 
-Things you may want to cover:
+### Objective
+ 
+Build an application from the ground up which utilizes many of the concepts covered in class, culminating in a drag-and-drop interface.
 
-* Ruby version
+## Demo
+	* [here](https://hidden-peak-22959.herokuapp.com/)
 
-* System dependencies
+## About 
+ * This application to allow for multi-tenancy. This means that multiple users can access the same application, but that each user only ever sees his or her content. There will be no overlap in content, and additional users can be added with no developer intervention.
+ * its purpose is for its user to be able to create as many to-dos as he or she wants, mark them as complete, and drag and drop them into the preferred order.
 
-* Configuration
+## Acknowledgments
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
