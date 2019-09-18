@@ -1,0 +1,3 @@
+class SubUser < User
+end
+
