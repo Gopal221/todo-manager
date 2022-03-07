@@ -34,6 +34,7 @@ gem 'jquery-rails', '~> 4.3.1'
 gem 'jquery-ui-rails'
 
 gem 'acts_as_list'
+gem 'mimemagic', '~> 0.3.10'
 
 
 gem 'bootstrap', '~> 5.1.3'
