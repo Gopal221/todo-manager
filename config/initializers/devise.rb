@@ -1,3 +1,4 @@
+Devise.secret_key = 'ad60f3d8811c2fe750c331a013a962b6cfbdac723e9d503ed7590260332cd7822bdb9435808af542498c8ad4c3096911d517e326f744727b09abb547d7864415'
 # frozen_string_literal: true
 
 # Use this hook to configure devise mailer, warden hooks and so forth.
@@ -297,3 +298,6 @@ Devise.setup do |config|
   # changed. Defaults to true, so a user is signed in automatically after changing a password.
   # config.sign_in_after_change_password = true
 end
+
+
+
