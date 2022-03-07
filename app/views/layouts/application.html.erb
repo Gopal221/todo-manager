@@ -15,9 +15,13 @@
   <body>
     <%=render partial:'shared/header'%>
     <div class="container">
-      <div class="row">
+      <section class="vh-60">
+      
+        
         <%= yield %>
-      </div>
+    
+      </section>
     </div>
+    <%=render partial:'shared/footer'%>
   </body>
 </html>

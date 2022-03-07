@@ -18,6 +18,7 @@
 //= require jquery-ui/widgets/sortable
 //= require activestorage
 //= require turbolinks
+//= require bootstrap
 //= require_tree .
 
 

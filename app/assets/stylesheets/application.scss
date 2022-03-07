@@ -1,0 +1,309 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap";
+
+
+.vh-60{
+    min-height: 60vh;
+}
+
+.bg-theme{
+    background-color: #167bff!important;
+}
+.single {
+padding: 30px 15px;
+
+}
+.single h3.side-title {
+margin: 0;
+margin-bottom: 10px;
+padding: 0;
+font-size: 20px;
+color: #333;
+text-transform: uppercase; }
+.single h3.side-title:after {
+content: '';
+width: 60px;
+height: 1px;
+background: #ff173c;
+display: block;
+margin-top: 6px; }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+
+.single li a {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c1bfb6 !important;
+    background: none;
+}
+span.draggable {
+    font-size: 24px;
+    color: #3439d8;
+        cursor: move;
+}
+
+.btn{
+    font-size: 11px !important;
+    font-weight: unset;
+    border-radius: 0 !important;
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.border-gray{
+    border: 1px solid #ededed;
+}
+.text-center {
+
+    text-align: center;
+}
+.wall-wrapper {
+    margin-top: 10px;
+}
+
+form#new_user {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.field input {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.actions input {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+        color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.label-heading{
+    padding: 10px;
+    text-align: center;
+}
+
+.list-screen{ 
+    top: 5px;
+    width: 0;
+    min-height: 58vh;
+    margin-right: 10px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0px 1px 4px 1px #726f6f;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+ /* Toggle Styles */
+ 
+ .nav-pills>li>a {
+    border-radius: 0;
+ }
+ 
+ #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+ }
+ 
+ #wrapper.toggled {
+    padding-left: 250px;
+    overflow: hidden;
+ }
+ 
+ #sidebar-wrapper {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    top: 62px;
+    width: 0;
+    min-height: 58vh;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: 0px 1px 4px 1px #726f6f;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+ }
+ 
+ #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+ }
+ 
+ #page-content-wrapper {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    overflow-x: hidden;
+ }
+ 
+ .xyz {
+    min-width: 360px;
+ }
+ 
+ #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0px;
+ }
+ 
+ .fixed-brand {
+    width: auto;
+ }
+ /* Sidebar Styles */
+ 
+ .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+ }
+ 
+ .sidebar-nav li {
+    text-indent: 15px;
+    line-height: 40px;
+ }
+ 
+ .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+ }
+ 
+ .sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-left: red 2px solid;
+ }
+ 
+ .sidebar-nav li a:active,
+ .sidebar-nav li a:focus {
+    text-decoration: none;
+ }
+ 
+ .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+ }
+ 
+ .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+ }
+ 
+ .sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+ }
+ 
+ .no-margin {
+    margin: 0;
+ }
+ 
+ @media(min-width:768px) {
+    #wrapper {
+       padding-left: 250px;
+    }
+    .fixed-brand {
+       width: 250px;
+    }
+    #wrapper.toggled {
+       padding-left: 0;
+    }
+    #sidebar-wrapper {
+       width: 250px;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+       width: 250px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper {
+       width: 50px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+       width: 250px;
+    }
+    #page-content-wrapper {
+       padding: 20px;
+       position: relative;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+       transition: all 0.5s ease;
+    }
+    #wrapper.toggled #page-content-wrapper {
+       position: relative;
+       margin-right: 0;
+       padding-left: 250px;
+    }
+    #wrapper.toggled-2 #page-content-wrapper {
+       position: relative;
+       margin-right: 0;
+       margin-left: -200px;
+       -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+       transition: all 0.5s ease;
+       width: auto;
+    }
+ }

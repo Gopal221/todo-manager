@@ -3,18 +3,14 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
 
 development:
   adapter: mysql2
-  #encoding: utf8
   database: todos_manager
   adapter: mysql2
   encoding: utf8
-  pool: 5
   username: root
   password: Root#123
-  host: 127.0.0.1
 production:
   <<: *default
   port: 5432 

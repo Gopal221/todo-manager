@@ -35,6 +35,8 @@ gem 'jquery-ui-rails'
 
 gem 'acts_as_list'
 
+
+gem 'bootstrap', '~> 5.1.3'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -42,7 +44,7 @@ gem 'acts_as_list'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
